@@ -1,0 +1,60 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "FortisArena Docs",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon1.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Legal",
+        "groups": [
+          {
+            "group": "Legal Documents",
+            "pages": [
+              "legal/privacy-policy",
+              "legal/terms-conditions",
+              "legal/cookie-policy",
+              "legal/disclaimer"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:admin@fortisarena.io"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "FortisArena",
+      "href": "https://fortisarena.io"
+    }
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view"
+   ]
+  },
+  "footer": {
+    "text": "© 2025 FortisArena. All rights reserved.",
+    "socials": {
+      "x": "https://x.com/fortisarena",
+      "github": "https://github.com/Fortis-Ledger",
+      "linkedin": "https://linkedin.com/company/fortisarena"
+    }
+  }
+}
