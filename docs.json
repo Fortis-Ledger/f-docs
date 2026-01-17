@@ -11,6 +11,13 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Tokenomics",
+        "pages": [
+          "tokenomics",
+          "smart-contracts"
+        ]
+      },
+      {
         "tab": "Legal",
         "groups": [
           {
@@ -45,12 +52,12 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view"
-   ]
+      "copy",
+      "view"
+    ]
   },
   "footer": {
-    "text": "© 2025 FortisArena. All rights reserved.",
+    "text": "© 2026 FortisArena. All rights reserved.",
     "socials": {
       "x": "https://x.com/fortisarena",
       "github": "https://github.com/Fortis-Ledger",
