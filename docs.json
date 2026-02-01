@@ -55,7 +55,8 @@
           {
             "group": "Overview",
             "pages": [
-              "tournaments/overview"
+              "tournaments/overview",
+              "gameplay/overview"
             ]
           },
           {
