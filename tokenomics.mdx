@@ -1,148 +1,395 @@
 ---
-title: 'Tokenomics'
-description: 'Comprehensive tokenomics model for Fortis Token (FRT)'
-icon: 'coins'
+title: "Tokenomics"
+description: "Utility-first dual-token system for access, rewards, and platform engagement"
 ---
 
-# FortisArena (FRT) Tokenomics
+# Tokenomics Overview
 
-**Version:** 1.1  
-**Last Updated:** January 2026
+> **Utility + Access + Commitment — NOT Equity, NOT Revenue Share**
 
-## Executive Summary
+FortisArena uses a **dual-token system** designed for long-term sustainability, legal safety, and real platform utility. Both tokens serve strictly different purposes and have **no ownership or profit-sharing rights** in the company.
 
-This document outlines the comprehensive tokenomics model for the Fortis Token (FRT), the native utility token of the FortisArena gaming platform. The model is designed to foster long-term growth, ensure ecosystem stability, and build investor confidence through transparency and robust, audited smart contracts.
+<Warning>
+  **Important Legal Distinction**
+  
+  ❌ Tokens are **NOT** equity  
+  ❌ Tokens are **NOT** revenue share  
+  ❌ Tokens are **NOT** company ownership  
+  
+  ✅ Tokens = **Utility + Access + Commitment** only
+</Warning>
 
-## Token Overview
+---
 
-| Parameter | Value |
-| :--- | :--- |
-| **Token Name** | FRT |
-| **Ticker Symbol** | FRT |
-| **Blockchain** | BNB Smart Chain (BSC) |
-| **Token Standard** | BEP-20 |
-| **Contract Address** | `0xFf10d933E1Ca7799866B5D2A615e562CAd306c96` |
-| **Total Supply** | 200,000,000 FRT (Fixed) |
-| **Decimals** | 18 |
-| **Contract Type** | Non-Mintable, Burnable, Pausable |
-| **Ownership** | Ownable2Step (Multi-sig ready) |
+## 🎯 First Principles
 
-## Token Allocation
+This model prioritizes:
 
-The total supply of 200,000,000 FRT is allocated across six core categories to ensure a balanced distribution for all stakeholders and long-term project success.
+| Principle | Implementation |
+|:----------|:---------------|
+| **Legal Safety** | No dividend language, no profit promises |
+| **Founder Control** | Company retains revenue, fees, roadmap |
+| **Platform Flexibility** | Tokens support ecosystem, not control it |
+| **Real Utility** | Access, reputation, and in-platform usage |
+| **Regulatory Compliance** | Works across Asia, EU, Middle East |
+
+---
+
+## 🪙 Token Structure
 
 ```mermaid
-pie title Token Allocation (200M Total)
-    "Liquidity (DEX/CEX)" : 40
-    "Pre-sale / Private Sale" : 40
-    "Team & Advisors" : 30
-    "Staking, Rewards & Airdrops" : 30
-    "Ecosystem Growth" : 30
-    "Reserve / Contingency" : 30
+flowchart TB
+    subgraph FRT["FRT"]
+        FRT_S[Supply: 200M Fixed]
+        FRT_U[Utility: Power, Access, Trust]
+        FRT_U1[Organization Registration]
+        FRT_U2[Tournament Hosting]
+        FRT_U3[Reputation Staking]
+        FRT_U4[Limited Governance]
+    end
+    
+    subgraph FPT["FPT — Fortis Points Token"]
+        FPT_S[Supply: 1B Fixed]
+        FPT_U[Utility: Usage, Rewards, Activity]
+        FPT_U1[Tournament Rewards]
+        FPT_U2[Creator Tips]
+        FPT_U3[Boosts & Perks]
+        FPT_U4[Cosmetics]
+    end
+    
+    FRT -->|Unlocks Platform Power| Platform[FortisArena Platform]
+    FPT -->|Powers Daily Activity| Platform
 ```
 
-| Category | Percentage | Token Amount | Purpose | Wallet Address |
-| :--- | :--- | :--- | :--- | :--- |
-| **Liquidity (DEX/CEX)** | 20% | 40,000,000 | Initial DEX liquidity, CEX listing fees, market making | `0xFB53E8D93212F29aaA99BaA5fb708618ea8FDEc5` |
-| **Pre-sale / Private Sale** | 20% | 40,000,000 | Initial fundraising from strategic partners | `0x9eE1A487F1A22c6c63204639b028E451Bf3Ae0c0` |
-| **Team & Advisors** | 15% | 30,000,000 | Incentivize and retain core team | `0xD0C8859C37F1f0D292A128e34dB56891048c7E98` |
-| **Staking, Rewards & Airdrops** | 15% | 30,000,000 | Reward users and governance participation | `0x780180B6aC026761d32397f608bc29FD6e0076C8` |
-| **Ecosystem Growth** | 15% | 30,000,000 | Fund community programs and partnerships | `0x29FDC47e6F3D0413562f4E1a864fE6deE75dfDEc` |
-| **Reserve / Contingency** | 15% | 30,000,000 | Strategic initiatives and expenses | `0xcd88Ac3758b0792b53d165187d6BDd5bF62ff091` |
+### Key Differences
 
-## Vesting Schedules
+| Aspect | FRT | FPT |
+|:-------|:----|:----|
+| **Full Name** | FRT | FPT |
+| **Supply** | 200,000,000 (Fixed) | 1,000,000,000 (Fixed) |
+| **Purpose** | Power, Access, Trust | Usage, Rewards, Activity |
+| **Launch** | Phase 1 (Live) | Phase 2 (Coming Soon) |
+| **Governance** | Limited (non-financial only) | None |
+| **Who Needs It** | Organizations, serious users | All players, creators |
+| **Revenue Rights** | ❌ None | ❌ None |
 
-To prevent market volatility and align long-term interests, all major allocations are subject to strategic vesting schedules managed by a dedicated TokenVesting smart contract.
+---
 
-| Category | TGE Unlock | Cliff Period | Vesting Period | Monthly Release |
-| :--- | :--- | :--- | :--- | :--- |
-| **Team & Advisors** | 0% | 12 Months | 24 Months (Linear) | ~1,250,000 FRT |
-| **Pre-sale / Private Sale** | 10% | 3 Months | 9 Months (Linear) | 4,000,000 FRT |
-| **Staking & Governance** | 0% | None | 48 Months (Emission) | ~625,000 FRT |
-| **Liquidity (DEX/CEX)** | 15% | None | As needed | N/A |
-| **Ecosystem Growth** | 0% | None | As needed (Multi-sig) | N/A |
-| **Reserve / Contingency** | 0% | 12 Months | As needed (Multi-sig) | N/A |
+## 🟣 FRT
 
 <Info>
-**Definitions:**
-*   **TGE (Token Generation Event):** The initial unlock at the moment of launch.
-*   **Cliff:** A period during which no tokens are unlocked.
-*   **Vesting:** The gradual release of tokens over time after the cliff.
+  **Contract Address (BSC)**: `0xFf10d933E1Ca7799866B5D2A615e562CAd306c96`
 </Info>
 
-## Circulating Supply Forecast
+### What FRT Is
 
-This table projects the growth of the circulating supply over the first 12 months.
+FRT represents **serious commitment** to the platform. It's required for organizations, tournament hosts, and power users who want advanced features.
 
-| Month | Event | New Tokens Unlocked | Cumulative Circulating | % of Total |
-| :--- | :--- | :--- | :--- | :--- |
-| **0 (Launch)** | TGE + Liquidity | 10,000,000 | 10,000,000 | 5.0% |
-| **1-3** | Staking Rewards | ~1,875,000 | 11,875,000 | 5.9% |
-| **4** | Private Sale Vesting Starts | 4,625,000 | 16,500,000 | 8.25% |
-| **5-11** | Private Sale + Staking | ~4,625,000/mo | - | - |
-| **12** | Team Vesting Starts | ~5,875,000 | 54,750,000 | 27.4% |
+### What FRT Is NOT
 
-## Pricing Structure
+- ❌ Profit-sharing token
+- ❌ Dividend-paying asset
+- ❌ Company equity
+- ❌ Guaranteed return investment
 
-| Stage | Price (USD) | Tokens |
-| :--- | :--- | :--- |
-| **Private Sale** | $0.075 | 40,000,000 FRT |
-| **Launch Price** | $0.10 | - |
+### Core Use Cases
 
+#### 1️⃣ Access Staking (No Money Promised)
 
+Stake FRT to unlock platform capabilities:
 
-## Token Utility
+| Feature | FRT Required | Benefit |
+|:--------|:-------------|:--------|
+| **Organization Status** | 10,000 FRT | Register as esports org |
+| **Tournament Hosting** | 5,000 FRT | Create custom tournaments |
+| **Guild Expansion** | Variable | Unlock larger guild sizes |
+| **Advanced Analytics** | 2,000 FRT | Detailed stats & reports |
+| **Higher Limits** | 1,000 FRT | Increased withdrawal caps |
+| **Verified Badge** | 5,000 FRT | Blue checkmark status |
 
-The value of FRT is derived from its deep integration into the FortisArena ecosystem.
+<Note>
+  **Higher stake = Higher responsibility**
+  
+  Organizations with more FRT staked have more to lose if they violate rules.
+</Note>
 
-### Core Gameplay & Access
-*   **Tournament Entry:** Pay FRT to enter exclusive tournaments with high prize pools.
-*   **Premium Features:** Unlock advanced analytics, private lobbies, and other premium features by holding or spending FRT.
+#### 2️⃣ Tournament Entry Fees
 
-### Economic Incentives
-*   **Staking:** Stake FRT in the FRTStaking contract to earn a share of the rewards pool.
-*   **Rewards:** Earn FRT as prizes for winning tournaments and completing in-game challenges.
+Serious competitions require **FRT for entry**:
 
-### Governance
-*   **DAO Voting:** Hold FRT to vote on key platform decisions, such as new game integrations, feature development, and treasury spending.
+| Tournament Tier | Entry Fee | Est. Value |
+|:----------------|:----------|:-----------|
+| **Amateur** | 10 FRT | ~$1-2 |
+| **Semi-Pro** | 50 FRT | ~$5-10 |
+| **Pro** | 200 FRT | ~$20-40 |
+| **Elite** | 500 FRT | ~$50-100 |
+| **Legend** | 2,500 FRT | ~$250-500 |
 
-## Deflationary Mechanism
+**Why FRT for entry?**
+- Ties serious competition to access token
+- Creates natural demand for FRT
+- Entry fees recycled to prize pools (mostly in FPT)
 
-*   **Buyback & Burn:** A portion of platform revenue will be used to systematically buy FRT from the open market and permanently burn it using the `burn()` function, reducing the total supply over time.
+#### 3️⃣ Occasional Premium Rewards
 
-## Staking Pools
+While **90% of rewards are FPT**, special achievements earn **FRT**:
 
-FRT holders can stake their tokens in the dedicated `FRTStaking` contract to earn rewards. Higher APY is offered for longer lock periods.
+| Achievement | FRT Reward | Occurrence |
+|:------------|:-----------|:-----------|
+| **International Champion** | 50,000-500,000 FRT | Annual |
+| **Season Grand Winner** | 25,000-100,000 FRT | Quarterly |
+| **Major Creator Grant** | 10,000-50,000 FRT | Monthly |
+| **Critical Bug Bounty** | 5,000-25,000 FRT | As found |
 
-| Pool | Lock Duration | APY | Minimum Stake |
-| :--- | :--- | :--- | :--- |
-| **Flexible** | None | 10% | 1,000 FRT |
-| **Bronze** | 30 Days | 15% | 1,000 FRT |
-| **Silver** | 90 Days | 20% | 1,000 FRT |
-| **Gold** | 180 Days | 25% | 1,000 FRT |
-| **Platinum** | 365 Days | 30% | 1,000 FRT |
+#### 4️⃣ Lock & Burn Mechanism
 
-## Security & Trust
+When FRT is used for platform features:
 
-The following measures are implemented in the `FortisToken.sol` contract and project operations to build maximum investor confidence:
+| Action | Burn % | Time-Locked % | Result |
+|:-------|:-------|:--------------|:-------|
+| Org Registration | 20% | 80% (1 year) | Supply pressure |
+| Tournament Hosting | 10% | 90% (6 months) | Reduced circulation |
+| Guild Expansion | 15% | 85% (1 year) | Long-term holding |
 
-| Measure | Description |
-| :--- | :--- |
-| **No Mint Function** | The contract has a fixed supply and cannot be inflated. |
-| **Verified & Audited Contract** | Smart contracts publicly audited by a top-tier firm. |
-| **Locked Liquidity** | 100% of initial DEX LP tokens locked for 12 months via a trusted third-party service. |
-| **Locked Team Tokens** | All team tokens subject to 12-month cliff and vesting via the TokenVesting contract. |
-| **Public Wallets** | All project wallet addresses published on the official website. |
-| **Team KYC** | Core team undergoes KYC verification with a reputable third-party service. |
-| **Multi-Sig Treasury** | Major funds secured in a multi-signature wallet (e.g., Gnosis Safe). |
-| **Ownable2Step** | Ownership transfer requires a two-step process, preventing accidental transfers to wrong addresses. |
-| **Launch Helper** | A dedicated `setLaunchAddresses()` function minimizes human error during the critical launch phase. |
-| **Anti-Sniper Protection** | Early sniper bots are blocked for the first 3-5 blocks of trading. |
+> This creates **demand without payout obligations** — supply pressure from real usage.
 
+#### 5️⃣ Reputation Staking (Trust System)
 
+Organizations, guilds, and hosts must stake FRT as collateral:
 
-## Conclusion
+```
+Scenario: Tournament host stakes 50,000 FRT
+↓
+If host commits fraud or allows cheating
+↓
+Stake gets SLASHED (partial or full)
+↓
+Victims compensated from slashed amount
+```
 
-This tokenomics structure is engineered to create a sustainable and thriving economy for FortisArena, aligning the interests of the team, investors, and community for long-term success.
+**This creates a Web2 + Web3 hybrid trust system:**
+- Traditional verification (KYC)
+- Economic collateral (FRT stake)
+- Transparent slashing (on-chain)
 
-> **FortisArena** - Building the Future of Competitive Gaming
+#### 6️⃣ Limited Governance (Non-Financial Only)
+
+FRT holders can vote on:
+
+✅ **Allowed Topics:**
+- Which games to add next
+- Tournament rule changes
+- Community standards updates
+- Feature priority ranking
+
+❌ **NOT Allowed:**
+- Treasury control
+- Fee changes
+- Revenue distribution
+- Company decisions
+
+### FRT Distribution (200M Total)
+
+| Allocation | Percentage | Amount | Vesting/Lock |
+|:-----------|:-----------|:-------|:-------------|
+| **Team** | 15% | 30M | 2-4 year vesting |
+| **Pre + Private** | 20% | 40M | 6-12 month lock |
+| **Access Staking** | 15% | 30M | Utility pool |
+| **Liquidity** | 20% | 40M | DEX liquidity |
+| **Ecosystem** | 15% | 30M | Partnerships, grants |
+| **Reserve** | 15% | 30M | Emergency & stability |
+
+### Reserve Strategy
+
+The 15% reserve exists for:
+
+- **Emergency liquidity** during market shocks
+- **Long-term platform stability**
+- **Strategic partnerships** support
+- **Market confidence** signaling
+
+<Warning>
+  Reserve is **NOT for dumping**. Protected by multi-sig and transparency requirements.
+</Warning>
+
+---
+
+## 🔵 FPT — Fortis Points Token
+
+<Warning>
+  **Phase 2 Launch**: FPT will launch after platform reaches critical mass. No contract address yet.
+</Warning>
+
+### What FPT Is
+
+FPT is the **in-platform currency** for daily activities, rewards, and micro-transactions. Think of it as "platform credits" that happen to be on the blockchain.
+
+### What FPT Is NOT
+
+- ❌ Governance token
+- ❌ Power/acquisition token
+- ❌ Revenue rights
+- ❌ Investment vehicle
+
+### Core Use Cases
+
+#### 1️⃣ Rewards Distribution
+
+Earn FPT for platform participation:
+
+| Activity | Reward | Timing |
+|:---------|:-------|:-------|
+| **Tournament Win** | 100-10,000 FPT | Instant |
+| **MVP Performance** | 500-2,000 FPT | Post-match |
+| **Achievement Unlock** | 50-500 FPT | Instant |
+| **Seasonal Ladder** | 1,000-50,000 FPT | End of season |
+| **Creator Engagement** | Variable | Real-time |
+| **Referral Bonus** | 100 FPT | On friend signup |
+
+#### 2️⃣ In-Platform Spending
+
+Use FPT for platform features:
+
+| Purchase | FPT Cost | Benefit |
+|:---------|:---------|:--------|
+| **Guild Utilities** | 500-5,000 | Guild perks & features |
+| **Creator Tips** | Any amount | Support streamers |
+| **Visibility Boost** | 200-1,000 | Promote posts |
+| **Cosmetic Perks** | Variable | Profile customization |
+| **Free Tournaments** | 0 FPT | Practice & fun (no prize) |
+
+**Spend Mechanics:**
+- Some FPT gets **burned** (deflationary)
+- Some FPT gets **recycled** to reward pool
+
+#### 3️⃣ Utility Staking (NOT Investment)
+
+Stake FPT for platform benefits (NOT APY):
+
+| Stake Amount | Unlock | Duration |
+|:-------------|:-------|:---------|
+| 1,000 FPT | 5% fee discount | While staked |
+| 5,000 FPT | Priority matchmaking | While staked |
+| 10,000 FPT | Exclusive cosmetics | While staked |
+
+<Warning>
+  **NO APY PROMISES** — Staking FPT gives utility benefits only, not financial returns.
+</Warning>
+
+### FPT Distribution (1B Total)
+
+| Allocation | Percentage | Amount | Purpose |
+|:-----------|:-----------|:-------|:--------|
+| **Rewards & Achievements** | 30% | 300M | Tournament prizes, MVP, ladders |
+| **Ecosystem & Community** | 20% | 200M | Grants, partnerships |
+| **Sales** | 15% | 150M | Public sale, liquidity |
+| **Utility Staking** | 20% | 200M | Staking rewards pool |
+| **Liquidity** | 10% | 100M | DEX liquidity |
+| **Reserve** | 5% | 50M | Emergency buffer |
+
+---
+
+## 🔁 How Value Actually Builds
+
+```
+Platform Growth
+      ↓
+More Users + More Orgs + More Tournaments + More Guilds
+      ↓
+Users Need:
+  • FRT to unlock power (org registration, hosting)
+  • FPT to play & spend (entries, tips, boosts)
+      ↓
+FRT gets locked/burned
+FPT circulates/burns
+      ↓
+Supply pressure + Real demand
+      ↓
+Market value reflects PRODUCT SUCCESS
+```
+
+> **No fake yield. Real usage only.**
+
+---
+
+## ⚖️ Legal Safety Checklist
+
+Our token design passes these critical checks:
+
+| Check | Status | How We Comply |
+|:------|:-------|:--------------|
+| **No Dividend Language** | ✅ | No profit-sharing mentioned |
+| **No Profit Promises** | ✅ | No guaranteed returns |
+| **No Revenue Share** | ✅ | Company keeps all revenue |
+| **Utility-First Tokens** | ✅ | Access and usage only |
+| **Delayed FPT Launch** | ✅ | Phase 2, after platform proven |
+| **Clear ToS Separation** | ✅ | Platform ≠ DAO |
+| **No Investment Contract** | ✅ | Howey test considerations |
+
+**This model is designed to be compliant across:**
+- 🇸🇬 Singapore (MAS guidelines)
+- 🇦🇪 UAE (VARA framework)
+- 🇪🇺 EU (MiCA regulations)
+- 🇺🇸 USA (securities considerations)
+
+---
+
+## 🏗️ Platform Control (Company Structure)
+
+**Company (FortisArena Inc.) Controls:**
+- ✅ All revenue
+- ✅ All fee structures
+- ✅ Treasury management
+- ✅ Product roadmap
+- ✅ Partnership decisions
+- ✅ Platform rules
+
+**Tokens Support:**
+- ✅ User engagement
+- ✅ Ecosystem growth
+- ✅ Platform utility
+- ✅ Trust mechanisms
+
+**Tokens Do NOT Control:**
+- ❌ Company decisions
+- ❌ Revenue distribution
+- ❌ Platform ownership
+
+---
+
+## 📊 Comparison: Traditional vs Fortis Model
+
+| Aspect | Traditional ICO | Fortis Model |
+|:-------|:----------------|:-------------|
+| **Token = Equity?** | Often implied | ❌ Explicitly NO |
+| **Profit Sharing?** | Common promise | ❌ None |
+| **Governance Scope** | Everything | Limited, non-financial only |
+| **Legal Risk** | High | Minimized |
+| **Founder Control** | Diluted | Retained |
+| **Regulatory Fit** | Poor | Designed for compliance |
+| **Value Source** | Speculation | Real platform usage |
+
+---
+
+## 🏆 Why This Model is Strong
+
+✅ **Long-term sustainable** — No unsustainable yield promises
+✅ **Investor-safe** — Clear utility, no misleading expectations
+✅ **Founder-safe** — Retain control and flexibility
+✅ **Regulator-safe** — Designed for compliance
+✅ **Gamer-friendly** — Simple, useful, no financial complexity
+✅ **Real economy** — Value from actual platform usage
+✅ **No future regret** — Won't need to restructure later
+
+---
+
+## 📚 Learn More
+
+- **[FRT Details](/tokenomics/frt)** — Deep dive into FRT
+- **[FPT Details](/tokenomics/fpt)** — Deep dive into Fortis Points Token
+- **[Smart Contracts](/smart-contracts)** — Technical documentation
+- **[Staking Guide](/tokenomics/staking)** — How to stake (utility only)
+
+---
+
+> **Tokens are tools for the ecosystem, not claims on the company.**

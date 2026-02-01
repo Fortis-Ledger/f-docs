@@ -1,0 +1,253 @@
+---
+title: "Crypto Basics for Gamers"
+description: "Understanding Web3, wallets, and how FortisArena fits in"
+---
+
+# Crypto Basics for Gamers
+
+New to cryptocurrency? This guide explains Web3 concepts and how FortisArena's wallet system works—no technical background needed.
+
+---
+
+## What is Web3?
+
+### The Evolution of the Internet
+
+| Web1 (1990s) | Web2 (2000s-present) | Web3 (Now) |
+|:-------------|:---------------------|:-----------|
+| Read-only | Read + Write | Read + Write + Own |
+| Static pages | Social media, apps | User-owned data |
+| Like a library | Like a multiplayer game | Like owning your items |
+
+**Web3** = The internet where you own your digital assets and can take them anywhere.
+
+---
+
+## Key Concepts
+
+### Blockchain
+A digital ledger that records transactions across many computers. Think of it as a **global scoreboard** that:
+- Everyone can see
+- No one can cheat
+- Records are permanent
+
+### Cryptocurrency
+Digital money that exists on the blockchain:
+- **FRT** = FortisArena's access token
+- **FPT** = FortisArena's rewards token
+- Tradable for other currencies
+
+### Smart Contracts
+Code that automatically executes agreements:
+- Tournament prizes distribute automatically
+- No one can change the rules mid-game
+- Results are transparent
+
+---
+
+## How FortisArena Wallet is Different
+
+### Traditional Crypto Wallets
+
+Most crypto platforms use wallets like MetaMask:
+
+| Component | What It Is | Your Responsibility |
+|:----------|:-----------|:--------------------|
+| **Public Address** | Your wallet ID | Share to receive funds |
+| **Private Key** | Secret password | Keep secure |
+| **Seed Phrase** | 12-24 word backup | NEVER lose this |
+
+**Problem**: Lose your seed phrase = Lose your funds forever. No customer support can help.
+
+### FortisArena's MPC Wallet
+
+We use **Multi-Party Computation (MPC)** technology:
+
+| Feature | How It Works |
+|:--------|:-------------|
+| **Your UID** | Simple ID: `FORTIS-UID-XXXX` |
+| **No Seed Phrase** | Recovery via email/phone |
+| **Key Distribution** | Keys split across secure servers |
+| **Platform Security** | We secure; you use |
+
+**Advantage**: Forget password? We can help recover. No seed phrase to lose.
+
+### Comparison
+
+| Aspect | Traditional Wallet | FortisArena Wallet |
+|:-------|:-------------------|:-------------------|
+| **Setup** | Install app, backup seed phrase | Sign up, auto-created |
+| **Recovery** | Seed phrase only | Email/phone verification |
+| **Security** | Your responsibility | Shared responsibility |
+| **Support** | None (you're on your own) | Full customer support |
+| **Best For** | DeFi experts | Gamers, everyday users |
+
+---
+
+## Understanding Your UID
+
+### What is a UID?
+
+**UID** = User Identifier
+
+```
+Format: FORTIS-UID-XXXX
+Example: FORTIS-UID-7842
+```
+
+### Using Your UID
+
+| Action | How |
+|:-------|:----|
+| **Receive funds** | Share your UID |
+| **Send funds** | Enter recipient's UID |
+| **Internal transfers** | Free and instant |
+
+### UID vs Wallet Address
+
+| UID | Wallet Address |
+|:----|:---------------|
+| `FORTIS-UID-7842` | `0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb4` |
+| For platform use | For blockchain use |
+| Easy to remember | Complex |
+| Free transfers | Network fees apply |
+
+**For most FortisArena activities, use your UID.**
+
+---
+
+## Your Balances Explained
+
+### Types of Assets
+
+| Asset | What It Is | Can Withdraw? |
+|:------|:-----------|:--------------|
+| **FRT** | Access token | ✅ Yes |
+| **FPT** | Rewards token | ✅ Yes |
+| **Fiat** | Bank balance | ✅ Yes (to bank) |
+| **Points** | Social rank | ❌ No |
+
+### Where Your Assets Are Stored
+
+```
+┌─────────────────────────────────────────────┐
+│         FORTISARENA PLATFORM                │
+│  ┌──────────────┐  ┌──────────────────────┐ │
+│  │ Internal     │  │ Blockchain           │ │
+│  │ Ledger       │  │ (BSC)                │ │
+│  │              │  │                      │ │
+│  │ • Points     │  │ • FRT ownership      │ │
+│  │ • Fiat       │  │ • FPT ownership      │ │
+│  │ • UID ledger │  │ • Transaction record │ │
+│  └──────────────┘  └──────────────────────┘ │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+## External Wallets (Optional)
+
+### When You Might Need One
+
+You DON'T need an external wallet for:
+- ✅ Using FortisArena
+- ✅ Internal transfers
+- ✅ Tournament participation
+- ✅ Earning rewards
+
+You MIGHT want one for:
+- Trading FRT on other exchanges
+- Participating in external DeFi
+- Long-term crypto storage
+
+### Connecting External Wallets (Optional)
+
+If you choose to connect MetaMask or Trust Wallet:
+
+1. Go to Settings → Connected Wallets
+2. Select wallet type
+3. Approve connection
+4. Use for deposits/withdrawals
+
+<Warning>
+  **For External Wallets**: You are responsible for seed phrase backup. FortisArena cannot recover external wallets.
+</Warning>
+
+---
+
+## Security Best Practices
+
+### Do's ✅
+
+- Enable 2FA on your FortisArena account
+- Use a strong, unique password
+- Verify withdrawal addresses carefully
+- Report suspicious activity immediately
+- Keep your email account secure
+
+### Don'ts ❌
+
+- Share your password with anyone
+- Click suspicious links in emails
+- Rush through transaction confirmations
+- Ignore security alerts
+- Use public WiFi without VPN for large transactions
+
+### FortisArena Will NEVER Ask For:
+
+- Your password (we can't see it)
+- Your seed phrase (we don't use them)
+- Your private keys (we manage these)
+- Remote access to your device
+
+---
+
+## Common Scams to Avoid
+
+### Phishing Emails
+
+**Fake**: "Verify your wallet - click here"  
+**Real**: We never ask for wallet verification via email
+
+### Fake Support
+
+**Fake**: "I'm from FortisArena support, send me your UID"  
+**Real**: Real support never asks for sensitive info in DMs
+
+### Impersonation
+
+**Fake**: "Send FRT to this address for 2x return"  
+**Real**: We never promise investment returns
+
+---
+
+## Getting Started
+
+### Step 1: Create Account
+Your wallet is automatically created. No setup needed!
+
+### Step 2: Explore Platform
+- Browse social content
+- Watch tournaments
+- Learn the ecosystem
+
+### Step 3: Verify (For Tournaments)
+Complete KYC to unlock competitive features.
+
+### Step 4: Get FRT
+- Buy on PancakeSwap
+- Send to your Fortis wallet
+- Enter tournaments
+
+---
+
+## Help Resources
+
+- **[Wallet Setup](/getting-started/wallet-setup)** - Detailed wallet guide
+- **[Buying FRT](/getting-started/buying-frt)** - How to get tokens
+- **[Security Guide](/user-guides/security-best-practices)** - Stay safe
+- **[FAQ](/faq/general)** - Common questions
+
+---
+
+> **FortisArena makes crypto simple.** No seed phrases, no complicated setups—just gaming and earning.

@@ -1,0 +1,421 @@
+---
+title: "Wallet Setup Guide"
+description: "How to use FortisArena's internal wallet (no external wallet needed!)"
+---
+
+# Wallet Setup Guide
+
+> **No MetaMask. No Trust Wallet. No Seed Phrases. Platform provides everything.**
+
+FortisArena has its own **internal wallet system** that is automatically created when you sign up. You don't need any external Web3 wallet to use the platform.
+
+---
+
+## 🎯 Quick Start (Recommended)
+
+### For New Users: Just Sign Up!
+
+<Steps>
+  <Step title="Create Account">
+    Sign up with Email, Google, Apple, or Phone
+  </Step>
+  
+  <Step title="Wallet Auto-Creates">
+    Your wallet is automatically generated—no setup needed!
+  </Step>
+  
+  <Step title="Get Your UID">
+    You'll receive a UID: `FORTIS-UID-XXXX`
+  </Step>
+  
+  <Step title="Start Using">
+    Receive funds, send transfers, join tournaments immediately
+  </Step>
+</Steps>
+
+**That's it!** No external apps, no seed phrases, no complicated setup.
+
+---
+
+## How Internal Wallet Works
+
+### What You Get
+
+| Feature | Internal Wallet |
+|:--------|:----------------|
+| **Setup** | Automatic on signup |
+| **Recovery** | Email/Phone verification |
+| **Security** | MPC (Multi-Party Computation) |
+| **Transfers** | Free, instant (UID to UID) |
+| **Seed Phrase** | ❌ Not needed |
+| **Private Key** | ❌ Not exposed to user |
+
+### Your UID (User Identifier)
+
+Instead of complex wallet addresses, you get a simple UID:
+
+```
+Format: FORTIS-UID-XXXX
+Example: FORTIS-UID-7842
+```
+
+**Use UID for:**
+- Receiving payments from other users
+- Internal transfers (free & instant)
+- Tournament registrations
+- Support tickets
+
+<Info>
+  **UID vs Wallet Address**
+  
+  - **UID**: `FORTIS-UID-7842` — Easy, for platform use
+  - **Wallet Address**: `0x742d...` — Complex, for external blockchain
+  
+  For internal transfers, use UID. For external crypto deposits/withdrawals, use wallet address.
+</Info>
+
+---
+
+## Wallet Dashboard
+
+Access your wallet at: `app.fortisarena.io/wallet`
+
+### What You'll See
+
+```
+┌─────────────────────────────────────┐
+│  💰 Your Wallet                     │
+│                                     │
+│  UID: FORTIS-UID-7842              │
+│                                     │
+│  Balances:                          │
+│  ├─ Fiat:      $150.00             │
+│  ├─ FRT:       500.00              │
+│  ├─ FPT:       2,340.00            │
+│  └─ Points:    450 (Rank 1)        │
+│                                     │
+│  [Send] [Receive] [Withdraw]        │
+└─────────────────────────────────────┘
+```
+
+### Balance Types
+
+| Balance | What It Is | Withdrawable? |
+|:--------|:-----------|:--------------|
+| **Fiat** | Bank-ready money | ✅ Yes (to bank) |
+| **FRT** | Platform power token | ✅ Yes (crypto) |
+| **FPT** | Rewards token | ✅ Yes (crypto) |
+| **Points** | Social rank points | ❌ No (rank only) |
+
+---
+
+## Sending & Receiving
+
+### Send to Another User (Internal)
+
+<Steps>
+  <Step title="Click Send">
+    Go to Wallet → Send
+  </Step>
+  
+  <Step title="Enter UID">
+    Enter recipient's UID (e.g., FORTIS-UID-1234)
+  </Step>
+  
+  <Step title="Select Asset">
+    Choose: Fiat, FRT, or FPT
+  </Step>
+  
+  <Step title="Enter Amount">
+    Type how much to send
+  </Step>
+  
+  <Step title="Confirm">
+    Review and confirm—transfer is instant!
+  </Step>
+</Steps>
+
+**Fee:** FREE for internal transfers  
+**Time:** Instant (milliseconds)
+
+### Receive from Another User
+
+Just share your UID: `FORTIS-UID-XXXX`
+
+Sender will:
+1. Enter your UID
+2. Select asset
+3. Send amount
+4. You receive instantly
+
+### Withdraw to External Wallet
+
+<Steps>
+  <Step title="Click Withdraw">
+    Go to Wallet → Withdraw → Crypto
+  </Step>
+  
+  <Step title="Select Asset">
+    Choose FRT or FPT
+  </Step>
+  
+  <Step title="Enter Address">
+    Paste external wallet address (0x...)
+  </Step>
+  
+  <Step title="Confirm">
+    Verify amount and address
+  </Step>
+  
+  <Step title="Authenticate">
+    2FA confirmation
+  </Step>
+  
+  <Step title="Wait">
+    3-30 minutes for blockchain confirmation
+  </Step>
+</Steps>
+
+### Deposit from External Wallet
+
+<Steps>
+  <Step title="Click Receive">
+    Go to Wallet → Receive → Crypto
+  </Step>
+  
+  <Step title="Copy Address">
+    Copy your deposit address (0x...)
+  </Step>
+  
+  <Step title="Send from Exchange">
+    Send FRT/FPT from Binance, MetaMask, etc.
+  </Step>
+  
+  <Step title="Wait">
+    3-30 minutes for confirmation
+  </Step>
+  
+  <Step title="Auto-Credit">
+    Balance updates automatically
+  </Step>
+</Steps>
+
+---
+
+## Fiat (Bank) Withdrawals
+
+### Setup Bank Account
+
+<Steps>
+  <Step title="Go to Settings">
+    Profile → Settings → Bank Accounts
+  </Step>
+  
+  <Step title="Add Account">
+    Enter bank details
+  </Step>
+  
+  <Step title="Complete KYC">
+    Verify identity if not already done
+  </Step>
+  
+  <Step title="Verify Account">
+    Small test deposit confirmation (1-2 days)
+  </Step>
+  
+  <Step title="Ready">
+    Withdraw to bank anytime!
+  </Step>
+</Steps>
+
+### Withdraw to Bank
+
+| Detail | Value |
+|:-------|:------|
+| **Minimum** | $10 equivalent |
+| **Maximum** | $10,000/day (tier-based) |
+| **Processing** | 10 minutes - 24 hours |
+| **Fee** | 1-2% |
+
+---
+
+## External Wallet (Optional)
+
+### When You Might Want External Wallet
+
+| Scenario | External Wallet? |
+|:---------|:-----------------|
+| **Just using FortisArena** | ❌ Not needed |
+| **Trading on other DEXs** | ✅ MetaMask, etc. |
+| **DeFi interactions** | ✅ External wallet |
+| **Long-term crypto storage** | ✅ Hardware wallet |
+| **NFT trading elsewhere** | ✅ External wallet |
+
+### Connecting External Wallet (Optional)
+
+If you want to connect MetaMask, Trust Wallet, etc.:
+
+<Steps>
+  <Step title="Go to Settings">
+    Profile → Settings → Connected Wallets
+  </Step>
+  
+  <Step title="Click Connect">
+    Select wallet type (MetaMask, WalletConnect, etc.)
+  </Step>
+  
+  <Step title="Approve">
+    Confirm connection in your wallet app
+  </Step>
+  
+  <Step title="Done">
+    External wallet is now linked
+  </Step>
+</Steps>
+
+**Benefits of connecting external wallet:**
+- Direct crypto deposits without copy-paste
+- One-click withdrawals to external wallet
+- Use platform with existing crypto holdings
+
+---
+
+## Security
+
+### How Your Wallet is Protected
+
+| Layer | Protection |
+|:------|:-----------|
+| **Technology** | MPC - No single point of failure |
+| **Recovery** | Email/Phone based (not seed phrase) |
+| **Authentication** | 2FA for all withdrawals |
+| **Monitoring** | AI fraud detection |
+| **Insurance** | Platform reserves insured |
+
+### Account Recovery
+
+Lost access? No problem:
+
+<Steps>
+  <Step title="Click Forgot Password">
+    On login screen
+  </Step>
+  
+  <Step title="Verify Identity">
+    Email or SMS verification
+  </Step>
+  
+  <Step title="Reset Access">
+    Create new password
+  </Step>
+  
+  <Step title="Wallet Restored">
+    Same UID, same balances
+  </Step>
+</Steps>
+
+**Unlike traditional crypto wallets:**
+- ✅ No seed phrase to forget
+- ✅ Recover via Email
+- ✅ Platform can help with recovery
+
+---
+
+## Common Questions
+
+### Do I need MetaMask?
+
+**NO!** MetaMask completely optional hai:
+
+- ✅ Internal wallet works for everything
+- ✅ Deposits/withdrawals work without MetaMask
+- ✅ Staking works with internal wallet
+- ✅ MetaMask sirf tab use karo jab external DeFi chahiye
+
+### What if FortisArena shuts down?
+
+**Your on-chain funds are safe:**
+- FRT/FPT are on blockchain (BSC)
+- Your ownership is recorded on-chain
+- Can withdraw to external wallet anytime
+- Fiat balances regulated accounts mein held
+
+### Can I see my private key?
+
+**NO!** And this is a **security feature**:
+
+- Private keys distributed across secure nodes
+- User ko manage nahi karna parta
+- Hacking risk reduced
+- Professional security management
+
+### Is there a mobile wallet app?
+
+**YES!** FortisArena mobile app includes full wallet:
+- iOS app
+- Android app
+- Same features as web
+- Biometric security
+
+### Can I have multiple wallets?
+
+**One UID per account**, but you can:
+- Connect multiple external wallets
+- Use same UID across devices
+- Transfer between your own wallets
+
+---
+
+## Troubleshooting
+
+### Deposit Not Showing
+
+| Check | Solution |
+|:------|:---------|
+| **Confirmations** | Wait for 15+ BSC confirmations |
+| **Network** | Ensure sent on BSC (not Ethereum) |
+| **Address** | Double-check deposit address |
+| **Time** | Up to 30 minutes is normal |
+
+**Still missing after 1 hour?**
+- Contact support with transaction hash
+- Email: wallet@fortisarena.io
+
+### Withdrawal Stuck
+
+| Status | Meaning | Action |
+|:-------|:--------|:-------|
+| **Pending** | Awaiting processing | Wait (up to 24h for fiat) |
+| **Processing** | Being sent | Wait for confirmations |
+| **Completed** | Sent successfully | Check destination wallet |
+| **Failed** | Transaction failed | Contact support |
+
+### Can't Access Wallet
+
+1. **Check login** — Correct email/password?
+2. **Verify account** — Email confirmed?
+3. **Clear cache** — Try incognito mode
+4. **Contact support** — wallet@fortisarena.io
+
+---
+
+## Next Steps
+
+<CardGroup cols={2}>
+  <Card title="Buy FRT" icon="shopping-cart" href="/getting-started/buying-frt">
+    Get FRT tokens for tournament entry
+  </Card>
+  <Card title="Complete Profile" icon="user" href="/user-guides/profile-setup">
+    Set up your gaming identity
+  </Card>
+  <Card title="Join Tournament" icon="trophy" href="/tournaments/getting-started">
+    Start competing for prizes
+  </Card>
+  <Card title="Learn Social" icon="users" href="/platform/social-gamification">
+    Earn points and rank up
+  </Card>
+</CardGroup>
+
+---
+
+> **Simple, secure, seed-phrase-free wallet — that's FortisArena.**

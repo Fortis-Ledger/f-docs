@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "FortisArena Docs",
+  "name": "FortisArena Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,10 +11,110 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Getting Started",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "index",
+              "getting-started/overview",
+              "getting-started/registration",
+              "platform/wallet-system"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Platform",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "platform/overview"
+            ]
+          },
+          {
+            "group": "Social System",
+            "pages": [
+              "platform/social-gamification",
+              "platform/rank-quick-reference"
+            ]
+          },
+          {
+            "group": "Wallet & Economy",
+            "pages": [
+              "platform/wallet-system",
+              "platform/wallet-faq"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Tournament Hub",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "tournaments/overview"
+            ]
+          },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "tournaments/verification",
+              "tournaments/squads",
+              "tournaments/guilds"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Tokenomics",
-        "pages": [
-          "tokenomics",
-          "smart-contracts"
+        "groups": [
+          {
+            "group": "Token Economy",
+            "pages": [
+              "tokenomics",
+              "tokenomics/frt",
+              "tokenomics/fpt",
+              "tokenomics/staking",
+              "smart-contracts"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Governance",
+        "groups": [
+          {
+            "group": "DAO",
+            "pages": [
+              "governance/overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "User Guides",
+        "groups": [
+          {
+            "group": "Guides",
+            "pages": [
+              "user-guides/crypto-basics",
+              "user-guides/security-best-practices"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "FAQ",
+        "groups": [
+          {
+            "group": "Help Center",
+            "pages": [
+              "faq/general"
+            ]
+          }
         ]
       },
       {
@@ -41,13 +141,25 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:admin@fortisarena.io"
+        "href": "mailto:support@fortisarena.io"
+      },
+      {
+        "label": "Website",
+        "href": "https://fortisarena.io"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "FortisArena",
+      "label": "Launch App",
       "href": "https://fortisarena.io"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/fortisarena",
+      "github": "https://github.com/Fortis-Ledger",
+      "linkedin": "https://linkedin.com/company/fortisarena",
+      "discord": "https://discord.gg/qTTYxTnK3s"
     }
   },
   "contextual": {
@@ -55,13 +167,5 @@
       "copy",
       "view"
     ]
-  },
-  "footer": {
-    "text": "© 2026 FortisArena. All rights reserved.",
-    "socials": {
-      "x": "https://x.com/fortisarena",
-      "github": "https://github.com/Fortis-Ledger",
-      "linkedin": "https://linkedin.com/company/fortisarena"
-    }
   }
 }

@@ -1,0 +1,367 @@
+---
+title: "Security Best Practices"
+description: "Keep your FortisArena account and assets secure"
+---
+
+# Security Best Practices
+
+Protecting your account is essential. This guide covers security for both FortisArena's internal wallet and optional external wallets.
+
+---
+
+## Account Security
+
+### Strong Passwords
+
+<AccordionGroup>
+  <Accordion icon="key" title="Password Requirements">
+    **Must have:**
+    - Minimum 12 characters
+    - Uppercase and lowercase letters
+    - Numbers
+    - Special characters
+    
+    **Example strong passwords:**
+    - ✅ `F7$mK9pL@vQ2#wX`
+    - ✅ `G@m1ng!Is#My$L1f3#2026`
+    
+    **Weak passwords:**
+    - ❌ `password123`
+    - ❌ `john1990`
+    - ❌ `fortisarena`
+  </Accordion>
+  
+  <Accordion icon="shield" title="Password Best Practices">
+    **DO:**
+    - ✅ Use a password manager
+    - ✅ Enable 2FA
+    - ✅ Change password if suspicious activity
+    - ✅ Use unique password for FortisArena
+    
+    **DON'T:**
+    - ❌ Reuse passwords from other sites
+    - ❌ Share your password
+    - ❌ Write passwords on paper
+    - ❌ Store in unencrypted files
+  </Accordion>
+</AccordionGroup>
+
+### Two-Factor Authentication (2FA)
+
+**Always enable 2FA** for maximum security.
+
+| Method | Security | Setup |
+|:-------|:---------|:------|
+| **Authenticator App** | ⭐⭐⭐⭐⭐ | Google Authenticator, Authy, Microsoft Authenticator |
+| **SMS/Text** | ⭐⭐⭐ | Phone number verification |
+| **Email** | ⭐⭐ | Backup option only |
+
+**To enable:**
+1. Go to Settings → Security → 2FA
+2. Choose your preferred method
+3. Follow setup instructions
+4. Save backup codes securely
+
+---
+
+## FortisArena Internal Wallet Security
+
+### How Our Wallet is Different
+
+FortisArena uses **MPC (Multi-Party Computation)** technology:
+
+| Feature | Traditional Wallet | FortisArena Wallet |
+|:--------|:-------------------|:-------------------|
+| **Recovery** | Seed phrase (12-24 words) | Email/Phone verification |
+| **Key Management** | You manage private keys | Platform secures keys |
+| **If You Forget** | Funds lost forever | We can help recover |
+| **Support** | None | Full customer support |
+
+### Your Responsibilities
+
+**You ARE responsible for:**
+- Account password security
+- 2FA setup and backup
+- Email account security
+- Verifying withdrawal addresses
+- Reporting suspicious activity
+
+**You are NOT responsible for:**
+- Private key management
+- Seed phrase backup
+- Wallet software updates
+- Blockchain node operation
+
+### Account Recovery
+
+If you lose access:
+
+<Steps>
+  <Step title="Click Forgot Password">
+    On the login page
+  </Step>
+  <Step title="Verify Identity">
+    Email or SMS verification
+  </Step>
+  <Step title="Reset Password">
+    Create new secure password
+  </Step>
+  <Step title="Access Restored">
+    Same UID, same balances
+  </Step>
+</Steps>
+
+---
+
+## External Wallet Security (If Used)
+
+<Info>
+  **Only applies if you connect MetaMask, Trust Wallet, or other external wallets.**
+  
+  FortisArena's internal wallet does NOT use seed phrases.
+</Info>
+
+### Seed Phrase Security (External Wallets Only)
+
+If you use MetaMask, Trust Wallet, etc.:
+
+**DO:**
+- ✅ Write on paper (not digital)
+- ✅ Store in secure location (safe, lockbox)
+- ✅ Make multiple copies
+- ✅ Consider metal backup (fire/water resistant)
+
+**DON'T:**
+- ❌ Store on computer or phone
+- ❌ Take screenshots
+- ❌ Email or message to yourself
+- ❌ Store in cloud storage
+- ❌ Share with anyone
+
+### Hardware Wallets (Optional)
+
+For large amounts:
+
+- Buy from official sources only
+- Never use pre-generated seed phrases
+- Verify device authenticity
+- Store in safe when not in use
+
+---
+
+## Recognizing Scams
+
+### Common Scams
+
+<AccordionGroup>
+  <Accordion icon="fish" title="Phishing (Fake Websites)">
+    **How it works:**
+    - Fake website looks identical to real one
+    - URL is slightly different
+    - Steals credentials when you log in
+    
+    **Examples:**
+    - ❌ `fortis-arena.io` (fake)
+    - ❌ `fortisarena.xyz` (fake)
+    - ✅ `fortisarena.io` (real)
+    - ✅ `app.fortisarena.io` (real)
+    
+    **Prevention:**
+    - Bookmark official sites
+    - Check URL carefully
+    - Look for SSL lock (🔒)
+  </Accordion>
+  
+  <Accordion icon="message-circle" title="Fake Support">
+    **How it works:**
+    - "Support agent" DMs you first
+    - Asks for account info or wallet details
+    - Offers to "help" with a problem
+    
+    **Red Flags:**
+    - Anyone DMing you first claiming to be support
+    - Asking for your password
+    - Asking you to connect to "verification" websites
+    - Pressure to act quickly
+    
+    **Remember:** Real FortisArena support will NEVER:
+    - DM you first
+    - Ask for your password
+    - Ask for your seed phrase
+    - Ask you to send crypto for "verification"
+  </Accordion>
+  
+  <Accordion icon="gift" title="Giveaway Scams">
+    **How it works:**
+    - "Send 1 FRT, get 2 FRT back"
+    - Fake celebrity endorsements
+    - Time pressure to "act now"
+    
+    **Reality:**
+    - If it sounds too good to be true, it is
+    - No one gives away free crypto for sending crypto
+    - Legitimate giveaways never require sending funds first
+  </Accordion>
+  
+  <Accordion icon="code" title="Fake Apps">
+    **How it works:**
+    - Malicious browser extension
+    - Fake mobile apps
+    - Modified wallet software
+    
+    **Prevention:**
+    - Only download from official sources
+    - Check reviews and download counts
+    - Verify publisher identity
+  </Accordion>
+</AccordionGroup>
+
+### Red Flags - STOP Immediately If You See:
+
+<Warning>
+  **Never proceed if:**
+  - Someone asks for your password
+  - Someone asks for your seed phrase (FortisArena doesn't use these)
+  - Promises of guaranteed returns
+  - Unsolicited DMs offering help
+  - Requests to install remote access software
+  - "Verify" by sending crypto
+</Warning>
+
+---
+
+## Transaction Security
+
+### Before Confirming Any Transaction:
+
+<Steps>
+  <Step title="Check Website">
+    Ensure you're on official fortisarena.io
+  </Step>
+  <Step title="Verify Recipient">
+    Double-check UID or wallet address
+  </Step>
+  <Step title="Review Amount">
+    Confirm token type and amount
+  </Step>
+  <Step title="Check Fees">
+    Review any network fees
+  </Step>
+  <Step title="Confirm 2FA">
+    Enter 2FA code if required
+  </Step>
+</Steps>
+
+### Address Verification
+
+**Always verify before sending:**
+
+| Token | Official Contract |
+|:------|:------------------|
+| **FRT** | `0xFf10d933E1Ca7799866B5D2A615e562CAd306c96` |
+
+**Verify through:**
+- Official documentation
+- Official social media
+- Cross-reference multiple sources
+- Ask in official Discord if unsure
+
+---
+
+## Device Security
+
+### Computer Security
+
+<Check>
+  - [ ] Operating system up to date
+  - [ ] Browser updated
+  - [ ] Antivirus software installed
+  - [ ] Firewall enabled
+  - [ ] Minimal browser extensions
+  - [ ] No cracked/pirated software
+</Check>
+
+### Mobile Security
+
+<Check>
+  - [ ] Biometric lock enabled
+  - [ ] Auto-lock set to short time
+  - [ ] Apps from official stores only
+  - [ ] Remote wipe enabled
+  - [ ] Regular backups
+</Check>
+
+### Network Security
+
+**Best Practices:**
+- Avoid public WiFi for transactions
+- Use VPN if on public networks
+- Ensure home WiFi is secured (WPA2/WPA3)
+
+---
+
+## What FortisArena Will Never Do
+
+| We Will NEVER | Real Support Behavior |
+|:--------------|:----------------------|
+| Ask for your password | We can't see your password |
+| Ask for seed phrase | We don't use seed phrases |
+| Ask for private keys | We manage these securely |
+| DM you first | Support only responds to tickets |
+| Ask you to send crypto | We never ask for verification payments |
+
+---
+
+## If You Suspect Compromise
+
+### Immediate Actions:
+
+1. **Change Password**
+   - FortisArena password
+   - Email password
+
+2. **Check Recent Activity**
+   - Review transactions
+   - Check login history
+
+3. **Contact Support**
+   - Email: security@fortisarena.io
+   - 24/7 hotline in app
+
+4. **Enable/Reset 2FA**
+   - Remove old 2FA
+   - Set up new 2FA
+
+---
+
+## Security Checklist
+
+### Weekly:
+- [ ] Review account activity
+- [ ] Check for unauthorized logins
+- [ ] Update apps
+
+### Monthly:
+- [ ] Change password
+- [ ] Review connected apps/devices
+- [ ] Verify 2FA is working
+
+### Immediately:
+- [ ] After any suspicious activity
+- [ ] After using public WiFi
+- [ ] If you clicked a suspicious link
+
+---
+
+## Emergency Contacts
+
+| Situation | Contact |
+|:----------|:--------|
+| **Account Hacked** | security@fortisarena.io |
+| **Suspicious Activity** | security@fortisarena.io |
+| **General Questions** | support@fortisarena.io |
+| **Scam Report** | scams@fortisarena.io |
+
+---
+
+> **Stay safe. When in doubt, contact support.**

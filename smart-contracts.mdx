@@ -230,27 +230,27 @@ function getBeneficiarySchedules(address _beneficiary) external view returns (by
 ## 3. FRTStaking Contract
 
 ### Purpose
-Allows FRT holders to stake their tokens and earn rewards. Supports multiple pools with different lock periods and APY rates.
+Allows FRT holders to stake tokens to unlock platform features and access tiers. Staking provides **utility benefits**, not financial returns.
 
-### Default Pools
+### Access Tiers
 
-| Pool ID | Lock Duration | APY | Minimum Stake |
+| Tier | Lock Duration | Minimum Stake | Unlocks |
 | :--- | :--- | :--- | :--- |
-| **0** | Flexible (0) | 10% | 1,000 FRT |
-| **1** | 30 Days | 15% | 1,000 FRT |
-| **2** | 90 Days | 20% | 1,000 FRT |
-| **3** | 180 Days | 25% | 1,000 FRT |
-| **4** | 365 Days | 30% | 1,000 FRT |
+| **1** | Flexible | 1,000 FRT | Higher withdrawal limits |
+| **2** | 90 Days | 5,000 FRT | Verified badge, fee discounts |
+| **3** | 180 Days | 25,000 FRT | Tournament hosting rights |
+| **4** | 365 Days | 50,000 FRT | Organization registration |
+| **5** | 730 Days | 100,000+ FRT | Premier partner status |
 
 ### Features
 
 | Feature | Description |
 | :--- | :--- |
-| **Multiple Pools** | Different lock periods with different APY |
-| **Flexible Staking** | No-lock option available |
-| **Compound Rewards** | Add rewards to stake automatically |
-| **Emergency Withdraw** | Withdraw early with 20% penalty |
-| **Transparent Rewards** | Real-time reward calculation |
+| **Utility Staking** | Stake for platform access, not yield |
+| **Flexible Options** | No-lock tier available |
+| **Tier Progression** | Unlock higher tiers with more stake |
+| **Early Unstake** | Withdraw early with 20% penalty |
+| **Governance Weight** | Voting power based on stake tier |
 
 ### Key Functions
 

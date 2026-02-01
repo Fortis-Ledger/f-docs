@@ -1,0 +1,43 @@
+---
+title: "Smart Contracts"
+description: "FortisArena Blockchain Architecture and Verified Contracts"
+---
+
+# Blockchain Architecture
+
+FortisArena utilizes a multi-chain strategy to ensure security, speed, and low transaction costs.
+
+- **Binance Smart Chain (BSC)**: The primary home for the **$FRT** governance token, chosen for its low gas fees and high throughput.
+- **Polygon (Matic)**: Utilized for high-frequency gameplay transactions to minimize costs for players.
+- **Ethereum**: Bridged for maximum liquidity and interoperability with the broader DeFi ecosystem.
+
+## Verified Contracts
+
+We believe in "Can't be evil" over "Don't be evil". All our core logic is on-chain and verifiable.
+
+### Core Contracts
+
+| Contract Name | Network | Address | Description |
+| :--- | :--- | :--- | :--- |
+| **FortisToken ($FRT)** | BSC Mainnet | `0xFf10d933E1Ca7799866B5D2A615e562CAd306c96` | The main BEP-20 governance and utility token. |
+| **Staking Pool** | BSC Mainnet | *Coming Soon* | Logic for staking $FRT to earn rewards. |
+| **Tournament Controller** | Polygon | *Coming Soon* | Manages tournament entry, state, and prize distribution. |
+
+### Source Code
+
+The source code for our verified contracts is available on GitHub for community review.
+
+#### FortisToken.sol
+The `FortisToken` contract is a standard OpenZeppelin implementation with added security features for snapshotting (voting) and pausing (emergency security).
+
+[View on GitHub](https://github.com/Fortis-Ledger/fortisarena-app/blob/main/contracts/evm/contracts/FortisToken.sol)
+
+## Security Audits
+
+Security is paramount. Our contracts interact with the real economy.
+- **Audit Partner**: *Pending*
+- **Last Audit**: *Q1 2026*
+
+<Warning>
+  Always verify contract addresses against official announcements on our [Twitter/X](https://x.com/fortisarena) before sending funds.
+</Warning>
