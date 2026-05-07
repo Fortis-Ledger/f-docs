@@ -66,6 +66,13 @@
               "tournaments/squads",
               "tournaments/guilds"
             ]
+          },
+          {
+            "group": "Asia Cup S1 Policies",
+            "pages": [
+              "tournaments/asia-cup-s1-pubg-mobile-policies",
+              "tournaments/asia-cup-s1-free-fire-policies"
+            ]
           }
         ]
       },
