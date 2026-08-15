@@ -5,16 +5,16 @@ icon: 'shield-check'
 ---
 
 <Note>
-**Effective Date:** February 1, 2026
+**Effective Date:** August 15, 2026
 
-**Last Updated:** February 1, 2026
+**Last Updated:** August 15, 2026
 </Note>
 
 ## 1. Introduction
 
-FortisArena ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, and protect your personal information when you use our gamified social platform, tournament hub, and associated services (collectively, the "Platform").
+FortisArena ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, disclose, and protect personal information when you use our gamified social platform, tournament hub, wallet-related services, and associated services (collectively, the "Platform").
 
-By using FortisArena, you agree to the practices described in this Privacy Policy.
+By using FortisArena, you acknowledge the practices described in this Privacy Policy.
 
 ---
 
@@ -25,219 +25,354 @@ By using FortisArena, you agree to the practices described in this Privacy Polic
 | Data Type | Examples | Purpose |
 |:----------|:---------|:--------|
 | **Identity Data** | Name, Email, Phone Number, Date of Birth | Account creation, verification |
-| **Profile Data** | Username, Avatar, Bio, Country | Platform personalization |
-| **KYC Data** | Government ID, Selfie (when verified) | Compliance, fraud prevention |
+| **Profile Data** | Username, Avatar, Bio, Country | Platform personalization and community features |
+| **KYC Data** | Government ID, Selfie (when verification is required) | Compliance, fraud prevention, and verification |
+
+We collect only the information reasonably necessary for the relevant FortisArena feature or service.
 
 ### 2.2 Platform Activity Data
 
 | Data Type | Examples | Purpose |
 |:----------|:---------|:--------|
 | **Social Activity** | Posts, comments, likes, shares | Platform functionality |
-| **Tournament Data** | Matches played, results, rankings | Competition integrity |
+| **Tournament Data** | Matches played, results, rankings | Competition integrity and statistics |
 | **Wallet Activity** | UID transfers, deposits, withdrawals | Transaction processing |
-| **Engagement** | Time spent, features used | Service improvement |
+| **Engagement** | Time spent, features used | Service improvement, security, and analytics |
 
 ### 2.3 Technical Data
 
-- IP Address
-- Device type and OS
+We may collect technical information such as:
+
+- IP address
+- Device type and operating system
 - Browser information
 - App version
-- Session logs
+- Session and authentication logs
+- Security and fraud-prevention events
 
 ---
 
-## 3. FortisArena Wallet System
+## 3. Meta / Facebook Login and Platform Data
 
-### 3.1 UID System (Internal Identifiers)
+FortisArena may provide users with the option to authenticate or connect their FortisArena account using Meta/Facebook Login.
 
-FortisArena uses a **UID (User Identifier)** system instead of exposing blockchain addresses for internal transactions:
+### 3.1 Information We May Receive
 
-- **Your UID**: `FORTIS-UID-XXXX` format
-- **Used for**: Internal transfers, tips, rewards
-- **Visibility**: Public (shown on profile)
+When you choose Meta/Facebook Login and authorize our application, Meta may provide information permitted by the permissions approved for our application. Depending on the permissions actually requested and authorized, this may include:
 
-### 3.2 Wallet Security (MPC Technology)
+- Name
+- Email address
+- Profile picture
+- Meta/Facebook user identifier
+- Other information specifically made available through an authorized permission
 
-Our internal wallet uses **Multi-Party Computation (MPC)** technology:
+We do **not** claim access to information that our application does not request or that Meta does not make available to the application.
+
+### 3.2 How We Use Meta/Facebook Data
+
+Information received through Meta/Facebook Login is used only as reasonably necessary to:
+
+1. Authenticate you and help you sign in to FortisArena
+2. Create, connect, and maintain your FortisArena account
+3. Provide account and profile functionality
+4. Maintain account security and prevent unauthorized access
+5. Provide support relating to your FortisArena account
+6. Operate features for which the relevant information is necessary and authorized
+
+We do not sell information obtained through Meta/Facebook Login.
+
+We do not use information obtained through Meta/Facebook Login for purposes unrelated to providing or operating the FortisArena services described in this Privacy Policy.
+
+We do not request Meta/Facebook permissions merely to obtain information that is not needed for a FortisArena feature.
+
+### 3.3 Meta/Facebook Data Sharing
+
+We may use infrastructure and service providers that process information on our behalf, such as hosting, database, security, authentication, and other technical service providers necessary to operate FortisArena.
+
+We do not sell Meta/Facebook information or provide it to third parties for independent advertising or unrelated commercial purposes.
+
+Information may also be disclosed where required by applicable law, valid legal process, or to protect the security and integrity of FortisArena and its users.
+
+### 3.4 Meta/Facebook Data Retention
+
+We retain information obtained through Meta/Facebook Login only for as long as reasonably necessary to provide the relevant FortisArena account or service, maintain security, comply with applicable legal obligations, resolve disputes, and enforce our agreements.
+
+If you disconnect Meta/Facebook Login or request deletion of your FortisArena account, we will process the relevant information for deletion in accordance with the account deletion provisions of this Privacy Policy, subject to information that we are legally permitted or required to retain.
+
+### 3.5 Meta/Facebook Data Deletion
+
+You may request deletion of your FortisArena account and associated personal information at any time by contacting:
+
+**privacy@fortisarena.io**
+
+You may also use our dedicated data deletion page:
+
+**https://docs.fortisarena.io/legal/data-deletion**
+
+A deletion request may require reasonable verification to protect the account from unauthorized requests.
+
+Where applicable, deletion will include information associated with your FortisArena account that we are not legally required or otherwise permitted to retain.
+
+If you used Meta/Facebook Login, requesting deletion of your FortisArena account will also initiate the deletion process for information received from Meta/Facebook that is associated with your FortisArena account, subject to applicable legal, security, and fraud-prevention retention requirements.
+
+---
+
+## 4. FortisArena Wallet System
+
+### 4.1 UID System (Internal Identifiers)
+
+FortisArena uses a **UID (User Identifier)** system for certain internal transactions and platform functionality:
+
+- **Your UID:** `FORTIS-UID-XXXX` format
+- **Used for:** Internal transfers, tips, rewards, and related platform functionality
+- **Visibility:** May be publicly visible on your profile where the relevant feature is enabled
+
+### 4.2 Wallet Security (MPC Technology)
+
+Where FortisArena provides MPC-based wallet functionality:
 
 | Feature | How It Works |
 |:--------|:-------------|
-| **No Seed Phrases** | Account recovery via email/phone verification |
-| **Key Distribution** | Private keys split across secure nodes |
-| **Platform Custody** | We secure the keys; you don't manage them |
-| **Recovery** | Email/SMS-based account recovery |
+| **No Seed Phrases** | Account recovery through supported account verification methods |
+| **Key Distribution** | Private-key material may be distributed across secure infrastructure |
+| **Platform Custody** | FortisArena or its designated infrastructure may secure wallet key material where applicable |
+| **Recovery** | Supported account recovery and verification mechanisms |
 
 <Warning>
-  **Important**: Unlike traditional crypto wallets, FortisArena does NOT provide seed phrases. Account recovery is done through standard email/phone verification.
+**Important:** FortisArena wallet functionality may differ from a traditional self-custodial wallet. Users should review the applicable wallet terms before using wallet-related features.
 </Warning>
 
-### 3.3 Blockchain Data
+### 4.3 Blockchain Data
 
-For on-chain transactions (deposits/withdrawals):
+For supported on-chain transactions:
 
-- **Public Blockchain Data**: Wallet addresses and transaction hashes are recorded on BNB Smart Chain (public)
-- **Internal Ledger**: UID-to-UID transfers are recorded on our secure internal ledger
-- **User Control**: You can withdraw to external wallets anytime
+- **Public Blockchain Data:** Wallet addresses and transaction hashes may be recorded on a public blockchain and may be permanently visible.
+- **Internal Ledger:** UID-to-UID transfers may be recorded in FortisArena's internal systems.
+- **User Control:** Where withdrawals are supported, users may withdraw assets to supported external wallet addresses.
+
+Blockchain data that has already been recorded on a public blockchain generally cannot be deleted or altered by FortisArena.
 
 ---
 
-## 4. How We Use Your Information
+## 5. How We Use Your Information
 
-### 4.1 Primary Purposes
+### 5.1 Primary Purposes
 
-1. **Platform Operation**: Running social features and tournaments
-2. **Wallet Services**: Processing transactions and maintaining balances
-3. **Security**: Fraud detection, anti-cheat, account protection
-4. **Compliance**: KYC/AML verification where required
-5. **Communication**: Support, updates, important notices
+We may use personal information to:
 
-### 4.2 Rank and Progression
+1. **Platform Operation:** Run social, gaming, esports, tournament, and community features
+2. **Wallet Services:** Process supported transactions and maintain account balances
+3. **Security:** Detect fraud, abuse, cheating, unauthorized access, and other security threats
+4. **Compliance:** Perform KYC/AML checks where required for applicable services
+5. **Communication:** Send support messages, account notices, security alerts, and service updates
+6. **Service Improvement:** Understand platform performance and improve features
+7. **Legal Protection:** Comply with applicable law and protect the rights and safety of FortisArena and its users
 
-Social Points and rank data are used to:
+### 5.2 Rank and Progression
+
+Where applicable, Social Points and rank data may be used to:
+
 - Determine platform feature access
 - Calculate content visibility
-- Distribute revenue shares (Rank 4 only)
+- Support rewards or revenue-sharing mechanisms where applicable
+- Maintain competitive and community rankings
 
-### 4.3 Tournament Integrity
+### 5.3 Tournament Integrity
 
-Tournament data is used for:
+Tournament data may be used for:
+
 - Matchmaking and skill rating
 - Prize distribution
 - Anti-cheat verification
-- Career progression tracking
+- Competition integrity
+- Career and performance tracking
 
 ---
 
-## 5. Data Sharing and Disclosure
+## 6. Data Sharing and Disclosure
 
-### 5.1 We Do NOT Sell Your Data
+### 6.1 We Do NOT Sell Your Data
 
-FortisArena does not sell, rent, or trade your personal information to third parties.
+FortisArena does not sell, rent, or trade personal information.
 
-### 5.2 When We Share Data
+### 6.2 When We Share Data
 
 | Scenario | Shared With | Data Shared |
 |:---------|:------------|:------------|
-| **Blockchain Transactions** | Public blockchain | Wallet addresses, transaction hashes |
-| **Payment Processing** | Banking partners | Fiat transaction data (for withdrawals) |
-| **KYC Verification** | Identity verification services | ID documents (for verification tier) |
-| **Legal Compliance** | Authorities | Data as required by law |
-| **Service Providers** | Cloud hosting, analytics | Anonymized technical data |
+| **Blockchain Transactions** | Relevant public blockchain network | Wallet addresses, transaction hashes, and other on-chain transaction data |
+| **Payment Processing** | Relevant payment or banking providers | Information necessary to process the transaction |
+| **KYC Verification** | Identity verification providers | Information required for the applicable verification process |
+| **Legal Compliance** | Government authorities or other authorized parties | Information required by applicable law or valid legal process |
+| **Service Providers** | Hosting, infrastructure, security, analytics, and other providers | Information reasonably necessary to provide the relevant service |
 
-### 5.3 Public Information
+Where third-party service providers process personal information on our behalf, they are expected to process that information only for authorized purposes and subject to appropriate contractual or technical safeguards.
 
-The following is publicly visible on the platform:
+### 6.3 Public Information
+
+Depending on your settings and the feature you use, the following may be publicly visible:
+
 - Username and profile picture
-- UID (e.g., FORTIS-UID-1234)
-- Social rank and points (if opted in)
+- UID (for example, `FORTIS-UID-1234`)
+- Social rank and points where the relevant feature is enabled
 - Tournament statistics and achievements
 - Public posts and content
 
-**NOT Public**:
+The following is not intended to be publicly displayed by default:
+
 - Email address
 - Phone number
 - KYC documents
-- Private wallet addresses (unless you share them)
-- Transaction history (except public blockchain data)
+- Private account information
+- Private wallet information that you have not chosen to publish
+
+Public blockchain information is an exception because transactions recorded on public blockchains may be visible to anyone.
 
 ---
 
-## 6. Data Security
+## 7. Data Security
 
-### 6.1 Security Measures
+### 7.1 Security Measures
+
+FortisArena uses reasonable technical and organizational safeguards appropriate to the nature of the information processed.
+
+Depending on the relevant service and infrastructure, safeguards may include:
 
 | Layer | Implementation |
 |:------|:---------------|
-| **Encryption** | AES-256 for data at rest, TLS 1.3 in transit |
-| **MPC Wallet** | Distributed key management |
-| **Access Control** | Role-based permissions, multi-sig for sensitive operations |
-| **Monitoring** | 24/7 fraud and anomaly detection |
-| **Audits** | Regular third-party security audits |
+| **Encryption** | Encryption for data in transit and, where supported, data at rest |
+| **MPC Wallet** | Distributed key-management architecture where applicable |
+| **Access Control** | Role-based access controls and restricted administrative access |
+| **Monitoring** | Security, fraud, and anomaly monitoring |
+| **Infrastructure Security** | Authentication, logging, backups, and other operational controls |
 
-### 6.2 Account Security
+No internet-based service can guarantee absolute security.
 
-- Two-factor authentication (2FA) supported
+### 7.2 Account Security
+
+Depending on the features available to your account, FortisArena may support:
+
+- Two-factor authentication (2FA)
 - Suspicious activity alerts
-- Automatic session timeout
-- IP-based security checks
+- Session management
+- Account recovery controls
+- IP and device security checks
 
 ---
 
-## 7. Your Rights
+## 8. Your Rights
 
-### 7.1 Access and Control
+### 8.1 Access and Control
 
-You have the right to:
-- Access your personal data
+Subject to applicable law, you may have the right to:
+
+- Access personal information we hold about you
+- Correct inaccurate information
 - Update profile information
-- Download your data (export)
-- Delete your account (with limitations)
+- Request deletion of your personal information
+- Request a copy/export of certain personal information
+- Object to or restrict certain processing where applicable
 
-### 7.2 Account Deletion
+We may need to verify your identity before processing certain requests.
 
-To delete your account:
-1. Withdraw all balances first
-2. Contact support@fortisarena.io
-3. Verification required for security
+### 8.2 Account Deletion
 
-**Note**: Blockchain transactions cannot be deleted as they are permanently recorded on-chain.
+To request deletion of your FortisArena account:
 
-### 7.3 Marketing Preferences
+1. Submit a request through **https://docs.fortisarena.io/legal/data-deletion**, or
+2. Contact **privacy@fortisarena.io**
+3. Complete any reasonable verification required to confirm that you control the account
 
-- You can opt out of marketing emails anytime
-- Transactional emails (withdrawals, security alerts) cannot be disabled
+Where applicable, users should withdraw or otherwise resolve account balances before account closure.
 
----
+Some information may be retained where required by law, necessary for security or fraud prevention, required to resolve disputes, necessary to enforce agreements, or otherwise permitted by applicable law.
 
-## 8. Data Retention
+**Important:** Information already recorded on a public blockchain cannot generally be deleted or altered by FortisArena.
 
-| Data Type | Retention Period |
-|:----------|:-----------------|
-| **Account Data** | Until account deletion |
-| **Transaction History** | 7 years (regulatory requirement) |
-| **KYC Documents** | 5 years post-account closure |
-| **Blockchain Data** | Permanent (on-chain) |
-| **Deleted Accounts** | 30 days (then permanently erased) |
+### 8.3 Marketing Preferences
+
+- You may opt out of non-essential marketing communications where an opt-out mechanism is provided.
+- Transactional, security, account, and legally required communications may continue where necessary.
 
 ---
 
-## 9. Children's Privacy
+## 9. Data Retention
 
-FortisArena is **not intended for users under 18**. We do not knowingly collect data from children under 18. If discovered, such accounts will be terminated and data deleted.
+We retain personal information only for as long as reasonably necessary for the purposes described in this Privacy Policy, unless a longer period is required or permitted by law.
+
+The following are general retention practices and may vary depending on the applicable service and legal requirements:
+
+| Data Type | General Retention |
+|:----------|:------------------|
+| **Account Data** | Until account deletion, subject to lawful retention requirements |
+| **Transaction History** | As required for applicable legal, regulatory, accounting, and security purposes |
+| **KYC Documents** | For the period required by applicable KYC/AML and other legal obligations |
+| **Blockchain Data** | Permanent where recorded on a public blockchain |
+| **Deleted Accounts** | Personal information is deleted or anonymized within a reasonable period, subject to lawful retention requirements |
+
+We may retain limited information after account deletion where reasonably necessary for legal compliance, fraud prevention, security, dispute resolution, or enforcement of our agreements.
 
 ---
 
-## 10. International Data Transfers
+## 10. Children's Privacy
 
-FortisArena operates globally. Your data may be processed in:
-- United Arab Emirates (primary)
+FortisArena is **not intended for users under 18**.
+
+We do not knowingly permit individuals under 18 to use services that require an adult user under our applicable terms. If we become aware that we have collected personal information from a person under 18 in circumstances where collection is not permitted, we will take reasonable steps to investigate and delete the information where appropriate.
+
+---
+
+## 11. International Data Transfers
+
+FortisArena operates internationally. Personal information may be processed in countries other than the country where you live, including through infrastructure and service providers located in different jurisdictions.
+
+Depending on our infrastructure and the services you use, processing may occur in:
+
+- United Arab Emirates
 - Singapore
-- European Union (GDPR compliant)
-- United States (selected service providers)
+- European Union
+- United States
+- Other jurisdictions where our service providers operate
 
-All transfers comply with applicable data protection laws.
-
----
-
-## 11. Cookies and Tracking
-
-See our [Cookie Policy](/legal/cookie-policy) for details on cookies and tracking technologies.
+Where required by applicable law, we use appropriate safeguards for international transfers of personal information.
 
 ---
 
-## 12. Changes to This Policy
+## 12. Cookies and Tracking
 
-We may update this Privacy Policy periodically. Changes will be:
-- Posted on this page
-- Notified via email (for material changes)
-- Effective immediately upon posting
+FortisArena may use cookies, local storage, session technologies, and similar technologies to:
+
+- Maintain authentication sessions
+- Protect accounts and prevent abuse
+- Remember preferences
+- Understand service usage
+- Improve performance and reliability
+- Support analytics and platform functionality
+
+See our [Cookie Policy](/legal/cookie-policy) for additional information.
 
 ---
 
-## 13. Contact Us
+## 13. Third-Party Services
 
-For privacy-related questions or concerns:
+FortisArena may integrate with third-party services for authentication, hosting, databases, analytics, communications, identity verification, payments, gaming, blockchain infrastructure, security, or other functionality.
+
+Third-party providers may process information under their own terms and privacy policies. Users should review the applicable third-party privacy information when using those services.
+
+Meta/Facebook may independently process information according to Meta's applicable terms and privacy policies.
+
+---
+
+## 14. Changes to This Policy
+
+We may update this Privacy Policy from time to time to reflect changes to FortisArena, our services, our data practices, legal requirements, or applicable platform requirements.
+
+When we make material changes, we may update the "Last Updated" date and provide additional notice where required.
+
+---
+
+## 15. Contact Us
+
+For privacy-related questions, data access requests, correction requests, or account/data deletion requests:
 
 | Department | Email |
 |:-----------|:------|
@@ -246,6 +381,7 @@ For privacy-related questions or concerns:
 | **General Support** | support@fortisarena.io |
 
 **Mailing Address:**
+
 FortisArena Ltd  
 86-90 Paul Street  
 London, EC2A 4NE  
@@ -253,6 +389,22 @@ United Kingdom
 
 ---
 
+## 16. Meta / Facebook Data Deletion Request
+
+If you accessed FortisArena using Meta/Facebook Login and want your associated FortisArena account and personal information deleted, submit a request through:
+
+**https://docs.fortisarena.io/legal/data-deletion**
+
+or email:
+
+**privacy@fortisarena.io**
+
+Your request may be verified before processing. Once verified, FortisArena will process the deletion of applicable personal information associated with your account, subject to information that we are legally required or permitted to retain.
+
+Information that exists independently on Meta's systems or on a public blockchain is not controlled by FortisArena. Requests concerning information processed directly by Meta may need to be made to Meta through its own privacy controls.
+
+---
+
 <Note>
-  This Privacy Policy is designed to be compliant with GDPR (EU), CCPA (California), PDPL (UAE), and other major privacy regulations.
+This Privacy Policy is intended to describe FortisArena's data practices and support compliance with applicable privacy and platform requirements, including applicable GDPR, CCPA/CPRA, UAE PDPL, and Meta platform requirements. It does not replace legal advice or the specific terms applicable to individual FortisArena services.
 </Note>
